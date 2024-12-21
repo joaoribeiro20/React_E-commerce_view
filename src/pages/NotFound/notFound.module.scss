@@ -1,0 +1,22 @@
+.div_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5DED8;
+    height: 100vh;
+    button{
+        background-color: #E5DED8;
+        border: 0vh;
+        font-size: large;
+        margin-right: 150vh;
+        cursor: pointer;
+    }
+    button:hover{
+        color: #ffffff;
+        border: 0vh;
+        font-size: large;
+        margin-right: 150vh;
+        cursor: pointer;
+    }
+}

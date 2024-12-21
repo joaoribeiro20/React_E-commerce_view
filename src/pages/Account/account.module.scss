@@ -1,0 +1,49 @@
+.sectionMain {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.articleImg {
+    min-width: 50%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.articleBtns {
+    min-width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divBtns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin: 5vh;
+    border: 0vh;
+    width: 25vh;
+    background-color: #534335;
+    color: #E5DED8;
+    font-size: 20px;
+    padding: 2vh;
+    border-radius:15px;
+    transition: 1s;
+}
+.btn:hover {
+    transition: 1s;
+    margin: 5vh;
+    border: 0vh;
+    background-color: #E5DED8;
+    color: #534335;
+    font-size: 25px;
+    padding: 2vh;
+    border-radius:15px;
+}

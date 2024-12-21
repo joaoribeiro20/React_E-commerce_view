@@ -1,0 +1,56 @@
+.main {
+    background-color: #f7f4f1;
+    max-width: 45vh;
+    min-width: 45vh;
+    max-height: 45vh;
+    min-height: 45vh;
+    position: absolute;
+    margin-left: 85vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+    text-align: center;
+    -webkit-box-shadow: 29px 15px 73px -12px rgba(178,255,200,1);
+-moz-box-shadow: 29px 15px 73px -12px rgba(178,255,200,1);
+box-shadow: 29px 15px 73px -12px rgba(178,255,200,1);
+}
+
+.areaVerde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(178,255,200,1);
+    border-bottom-left-radius: 100vh;
+    border-bottom-right-radius: 100vh;
+    border-radius:2vh;
+    margin: 0vh;
+    padding: 0vh;
+}
+.areaRedonda{
+    background-color: rgba(178,255,200,1);
+    position: absolute;
+    padding: 4vh;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 37vh;
+    margin-top: 10ch;
+}
+.areaInfo {
+    margin-top: 10svh;
+}
+
+.icons {
+    z-index: 1;
+    margin-top: 2vh;
+}
+.btn{
+    border-radius: 5vh;
+    background-color: #c8ffcd;
+    border: 0vh solid ;
+    padding: 1vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    -webkit-box-shadow: 2px 109px 72px -133px rgba(0,0,0,1);
+-moz-box-shadow: 2px 109px 72px -133px rgba(0,0,0,1);
+box-shadow: 2px 109px 72px -133px rgba(0,0,0,1);
+}
