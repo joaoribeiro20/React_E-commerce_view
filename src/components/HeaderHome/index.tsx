@@ -1,5 +1,5 @@
 import React from 'react';
-import im from '../../assets/imgs/Logo1.png'
+import im from '../../assets/imgs/CupCoffe2.png'
 import  style  from './header.module.scss';
 
 
