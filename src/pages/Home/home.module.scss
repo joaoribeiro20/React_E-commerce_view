@@ -1,0 +1,74 @@
+@import '../../global/styles/variablesColor';
+.home{
+    background-color:  $secondary-color;
+}
+
+.main_Home{
+    margin: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color:  $secondary-color;
+    .imgTitle{
+        min-width: 90%;
+    }
+    h1{
+        font-size: 90px;
+        margin: 0%;
+    }
+}
+mark{
+    color:$primary-color ;
+    background-color: transparent;
+
+}
+
+.home_context{
+    display: flex;
+    flex-direction: row;
+    .context_body{
+        min-width: 50px;
+        max-width: 900px;
+        margin-right: 25%;
+        margin-top: 20px;
+
+        p{
+            font-size: larger;
+        }
+
+        .buttons_body{
+            margin-top: 80px;
+            button{
+                margin-right: 5px;
+                margin-right: 50px;
+                padding: 25px;
+                min-width: 300px;
+                font-size: larger;
+                
+            }
+            .order{
+                border: 0cap;
+                background-color: $primary-color;
+                
+                a{
+                    color: $secondary-color;
+                }
+            }
+            .sign{
+                background-color: $secondary-color;
+                border: 1px solid $primary-color;
+                
+                a{
+                    color: $primary-color;
+                    font-weight:bold;
+                }
+            }
+            
+        }
+    }
+    .imgCup{
+        img{
+            width: 600px;
+        }
+    }
+    
+}

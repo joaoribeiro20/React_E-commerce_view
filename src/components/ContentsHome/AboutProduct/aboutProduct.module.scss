@@ -1,2 +1,35 @@
 @import '../../../global/styles/_variablesColor.scss';
 
+.section_main{
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+}
+
+.section_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    h2{
+
+        font-size: 70px;
+    }
+
+    button{
+        background-color: $primary-color;
+        font-size: 20px;
+        width: 350px;
+        height: 80px;
+        color: $white;
+        border:0px
+    }
+}
+
+.section_product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}

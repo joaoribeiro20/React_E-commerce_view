@@ -1,0 +1,32 @@
+@import '../../global/styles/variablesColor';
+
+.headerHome{
+    background-color: $tertiary-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div_img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    img{
+        width: 80px;
+        height: 70px
+    }
+}
+
+.div_Links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 350px;
+}
+
+.div_menu{
+    margin-right: 25px;
+}

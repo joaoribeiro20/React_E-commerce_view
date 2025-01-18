@@ -1,7 +1,42 @@
 @import '../../../global/styles/_variablesColor.scss';
 
 .section_main {
-  text-align: center;
-  margin-top: 15vh;
+  background-color: $white;
+  height: 1000px;
 
+  .article_texts{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    height: 900px;
+
+    div {
+      
+      h2{
+      font-size: 60px;
+      margin-bottom: 0px;
+    }
+    h3{
+      font-size: 48px;
+      opacity: 0.5;
+      margin-top: 0px;
+    }
+
+    p{
+      width: 800px;
+      font-size: 20px;
+      line-height: 2;
+    }
+
+    .bts{
+      margin-top: 5%;
+      background-color: $primary-color;
+      padding: 15px;
+      color: $white;
+    }
+  }
+
+  }
 }

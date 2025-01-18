@@ -1,2 +1,47 @@
+@import '../../global/styles/variablesColor';
 
 
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: $tertiary-color;
+
+    section h3{
+        font-size: 32px;
+    
+     strong{
+        color: $secondary-color;
+    }
+   }
+}
+
+.div_Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    color: $secondary-color;
+}
+
+a{
+    color: $secondary-color;
+}
+.btns{
+    height: 50px;
+    width: 127px;
+    background-color: $tertiary-color;
+    text-align: center;
+    align-items: center;
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
+    font-size: 18px;
+}
+.cart{
+    background-color: $black-light;
+    border: 1px solid  $black-light;
+}

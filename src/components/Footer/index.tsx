@@ -6,47 +6,25 @@ const Footer: React.FC = () => {
   return (
     <>
       <footer className={styles.footer}>
-        <section className={styles.infoMain}>
-          <article className={styles.listInfos}>
-            <p className={styles.titles}><strong>Products</strong></p>
-            <hr className={styles.linha} />
-            <Link to={'/'}>teste 1 </Link>
-            <Link to={'/'}>teste 2 </Link>
-            <Link to={'/'}>teste 3 </Link>
-          </article>
-          <article className={styles.listInfos}>
-            <p className={styles.titles}><strong>About Us</strong></p>
-            <hr className={styles.linha} />
-            <Link to={'/'}>teste 1 </Link>
-            <Link to={'/'}>teste 2 </Link>
-          </article>
-          <article className={styles.listInfos}>
-            <p className={styles.titles}><strong>More from  Coffe.j</strong></p>
-            <hr className={styles.linha} />
-            <Link to={'/'}>teste 1 </Link>
-            <Link to={'/'}>teste 2 </Link>
-            <Link to={'/'}>teste 3 </Link>
-            <Link to={'/'}>teste 4 </Link>
-            <Link to={'/'}>teste 5 </Link>
-          </article>
-        </section>
-        <section className={styles.contactMain}>
-          <article className={styles.infoEmail}>
-            <p className={styles.titles}><strong>Let´S Stay Connected</strong></p>
-            <p> enter your email to unlock 10% OFF.</p>
-            <input type="email" /><button>SUBMIT</button>
-            <hr />
-          </article>
-          <article className={styles.infoRedes}>
-            <p className={styles.titles}><strong>Follow us</strong></p>
-            <div>
-              <p>Insta</p>
-              <p>Whapp</p>
-              <p>Linkedin</p>
-              <p>blog</p>
-            </div>
-          </article>
-        </section>
+        <div>
+          <h2>Our Location</h2>
+        </div>
+        <div>
+          <p>Jl. Bangkringan No 19, RT.11/RW.2, Kota Surabaya, 60124</p>
+          <p>Customer Service +6282-2876-6862</p>
+          <p>We Are Open from Sun - Mon 10 AM - 22 PM</p>
+        </div>
+        <div>
+          <hr />
+        </div>
+        <div>
+          <div>redes sociais</div>
+          <div>Delivery Order</div>
+        </div>
+        <div>
+          <p>© 2023 OurCoffe, All rights reserved</p>
+          <a href="">Terms and Conditions</a> | <a href="">Privacy Policy</a>
+        </div>
       </footer>
 
     </>
