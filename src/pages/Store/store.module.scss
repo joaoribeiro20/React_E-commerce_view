@@ -1,0 +1,85 @@
+@import '../../global/styles/variablesColor';
+
+.container_main{
+    background-color: $tertiary-color;
+}
+.container_main_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.container_info{
+    width: 1300px;
+    h2{
+        color: $secondary-color;
+        font-size: 124px;
+        margin-bottom: 0%;
+    }
+
+}
+.container_img{
+    margin-top: 200px;
+    margin-right:5%;
+    img{
+        width: 400px;
+        height: 350px;
+    }
+}
+
+.container_main_inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:150px;
+    height: 150px;
+}
+.container_input{
+    display: flex;
+    flex-direction: column;
+    color: $secondary-color;
+    font-size: 18px;
+    label{
+        margin-bottom: 5px;
+    }
+    input{
+        background-color: $tertiary-color;
+        border: 3px solid $black-light;
+        padding: 20px;
+    }
+}
+
+.search{
+    width: 800px;
+
+    
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+    }
+}
+.search_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid $black-light;
+    input{
+        width: 800px;
+        outline: none; 
+        border: 0px solid $black-light;
+    }
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 5%;
+    align-items: center;
+    
+  }

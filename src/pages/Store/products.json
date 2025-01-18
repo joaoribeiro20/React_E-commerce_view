@@ -1,0 +1,55 @@
+[
+    {
+      "titulo": "Coffee Jar",
+      "descricao": "A delicious coffee blend.",
+      "imagem": "/path/to/coffee-jar.png",
+      "valor": 19.99
+    },
+    {
+      "titulo": "Espresso Machine",
+      "descricao": "Perfect for your espresso needs.",
+      "imagem": "../../assets/imgs/BagIcon.png",
+      "valor": 299.99
+    },
+    {
+      "titulo": "Coffee Mug",
+      "descricao": "Stylish and durable.",
+      "imagem": "/path/to/coffee-mug.png",
+      "valor": 9.99
+    },    {
+      "titulo": "Coffee Jar",
+      "descricao": "A delicious coffee blend.",
+      "imagem": "/path/to/coffee-jar.png",
+      "valor": 19.99
+    },
+    {
+      "titulo": "Espresso Machine",
+      "descricao": "Perfect for your espresso needs.",
+      "imagem": "../../assets/imgs/BagIcon.png",
+      "valor": 299.99
+    },
+    {
+      "titulo": "Coffee Mug",
+      "descricao": "Stylish and durable.",
+      "imagem": "/path/to/coffee-mug.png",
+      "valor": 9.99
+    },    {
+      "titulo": "Coffee Jar",
+      "descricao": "A delicious coffee blend.",
+      "imagem": "/path/to/coffee-jar.png",
+      "valor": 19.99
+    },
+    {
+      "titulo": "Espresso Machine",
+      "descricao": "Perfect for your espresso needs.",
+      "imagem": "../../assets/imgs/BagIcon.png",
+      "valor": 299.99
+    },
+    {
+      "titulo": "Coffee Mug",
+      "descricao": "Stylish and durable.",
+      "imagem": "/path/to/coffee-mug.png",
+      "valor": 9.99
+    }
+  ]
+  
