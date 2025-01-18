@@ -1,0 +1,45 @@
+.cardProduct {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 16px;
+    border: 0cap solid #ffffff;
+    max-width: 200px;
+}
+
+.cardProductImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 0px solid #333;
+}
+
+.cardProductTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #333;
+}
+
+.cardProductDescription {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 0px;
+}
+
+.cardProductValue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 8px;
+
+    p{
+        margin-right:60px;
+        margin-bottom: 30px;
+    }
+}
